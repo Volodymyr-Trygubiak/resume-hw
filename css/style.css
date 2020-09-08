@@ -1,0 +1,51 @@
+
+body {
+    font-family: Roboto;
+    font-weight: 400;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lang {
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 22px;
+}
+p {
+    font-size: 16px;
+    line-height: 24px;
+    display: block;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+.header__title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.header__main {
+    display: flex;
+}
+.header-left {
+    width: 300px;
+}
+.photo {
+    width: 300px;
+}
+.header__content {
+    margin-left: 40px;
+}
+.link {
+    color: #000;
+    text-decoration: none;
+    
+}
